@@ -290,7 +290,7 @@ footer p {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
   section.hero {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -321,7 +321,7 @@ footer p {
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   header h1,
   header nav {
     float: none;
